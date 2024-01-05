@@ -1,32 +1,64 @@
-# TodoPP - Todo List Application
+# Todo App
 
-## Overview
-
-TodoPP is a simple Todo List application built using React. It allows users to add, edit, delete, and mark tasks as completed.
+The Todo App is a React-based application designed to help users manage their tasks efficiently. It provides a user-friendly interface for adding, editing, deleting, and filtering tasks.
 
 ## Table of Contents
 
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Code Structure](#code-structure)
-- [State Management](#state-management)
-- [User Interface Design](#user-interface-design)
-- [Event Handling](#event-handling)
-- [Code Quality](#code-quality)
+- [Code Structure and Organization](#code-structure-and-organization)
+- [React Components and State Management](#react-components-and-state-management)
+- [User Interface Design and Usability](#user-interface-design-and-usability)
+- [Event Handling and State Updates](#event-handling-and-state-updates)
+- [Code Cleanliness, Readability, and Best Practices](#code-cleanliness-readability-and-best-practices)
+- [Getting Started](#getting-started)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Features
+## Code Structure and Organization
 
-- Add new tasks
-- Edit existing tasks
-- Delete tasks
-- Mark tasks as completed
-- Filter tasks based on completion status
+The Todo App follows a modular code structure for better organization and maintainability. Key components include:
 
-## Installation
+- **`src/components`**: Contains reusable UI components such as buttons, forms, and text elements.
 
-1. Clone the repository:
+- **`src/context`**: Manages the application's global state using React Context API.
+
+- **`src/hooks`**: Custom hooks for managing specific functionalities like Todos `useTodo.ts`.
+
+- **`src/containers`**: Holds the main pages of the application.
+
+- **`src/styles`**: Centralized styling using styled-components.
+
+## React Components and State Management
+
+The application utilizes React components for a component-based architecture. State management is achieved through the use of React Context API, providing a centralized store for managing Todos.
+
+## User Interface Design and Usability
+
+The user interface is designed to be intuitive and user-friendly. Key features include:
+
+- **Task Management**: Users can add, edit, and delete tasks.
+
+- **Filtering**: Tasks can be filtered based on completion status.
+
+- **Responsive Design**: The application is designed to be responsive across various devices.
+
+## Event Handling and State Updates
+
+Event handling is implemented for actions such as adding, editing, deleting, and filtering tasks. State updates are managed efficiently through React's state and context system.
+
+## Code Cleanliness, Readability, and Best Practices
+
+The codebase adheres to best practices for React development. Key principles include:
+
+- **Modularity**: Components are modularized for reusability.
+
+- **Consistent Styling**: Styled-components are used for consistent styling.
+
+- **Descriptive Variable Names**: Variable and function names are chosen to be descriptive.
+
+## Getting Started
+
+1. **Clone the Repository:**
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/your-username/todo-app.git
    ```
