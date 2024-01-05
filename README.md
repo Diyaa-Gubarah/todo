@@ -63,8 +63,20 @@ The codebase adheres to best practices for React development. Key principles inc
    git clone https://github.com/Diyaa-Gubarah/todo.git
    ```
 
-2. ```cd todo```
-   
+2. ```cd todo
 
-3. ```npm install```
-3. then run the app using : `npm run dev`
+   ```
+
+3. ```npm install
+
+   ```
+
+````
+
+3. then run the app using : ```npm run dev
+
+````
+
+```
+
+```
