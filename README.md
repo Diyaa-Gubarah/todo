@@ -10,8 +10,6 @@ The Todo App is a React-based application designed to help users manage their ta
 - [Event Handling and State Updates](#event-handling-and-state-updates)
 - [Code Cleanliness, Readability, and Best Practices](#code-cleanliness-readability-and-best-practices)
 - [Getting Started](#getting-started)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Code Structure and Organization
 
