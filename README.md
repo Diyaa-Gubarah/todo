@@ -59,10 +59,10 @@ The codebase adheres to best practices for React development. Key principles inc
 
 1. **Clone the Repository:**
 
-   ```git clone https://github.com/Diyaa-Gubarah/todo.git
+   ```bash git clone https://github.com/Diyaa-Gubarah/todo.git
 
-2. Then ```cd todo
+2. Then ```bash cd todo
 
-3. Then ```npm install
+3. Then ```bash npm install
 
-4. then run the app using : ```npm run dev
+4. then run the app using : ```bash npm run dev
