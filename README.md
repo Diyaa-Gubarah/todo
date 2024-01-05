@@ -67,4 +67,4 @@ The codebase adheres to best practices for React development. Key principles inc
    npm install```
    ````
 
-3. the run the app using : `npm run dev`
+3. then run the app using : `npm run dev`
